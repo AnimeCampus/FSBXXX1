@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "16743442"))
 API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001912633959"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001750485720"))
 
 #📢 -1001912633959
 #🏷 FSB Database
