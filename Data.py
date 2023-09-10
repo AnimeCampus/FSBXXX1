@@ -24,8 +24,7 @@ class Data:
   ├ /batch - To link more than one file
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
-  
- 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bots_Update'>Anime Campus</a>
+  </a>
 """
 
     close = [
@@ -49,11 +48,8 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @Anime_Campus_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+a Telegram Bot for storing posts or files that can be accessed via a special link.
 
   • Creator: @MH17_KUNAL
   • Framework: Pyrograms
-  • Channel :@Campus_Bot_Update
-
- 👨‍💻 Developed by @Anime_Campus
 """
