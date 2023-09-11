@@ -1,14 +1,9 @@
-# Credits: @mrismanaziz
-# FROM File-Sharing-Man <https://github.com/mrismanaziz/File-Sharing-Man/>
-# t.me/SharingUserbot & t.me/Lunatic0de
-
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
 <b>How to Use This Bot</b>
-This is the image you want to display:
-<img src="https://graph.org/file/120bf7519b24e50dd0b46.jpg">
+Click the "Help" button to view the image:
 """
 
     close = [
@@ -34,3 +29,5 @@ About this Bot:
   • Creator: @SexyNano
   • Framework: Pyrograms
 """
+
+    HELP_IMAGE = "https://graph.org/file/120bf7519b24e50dd0b46.jpg"
