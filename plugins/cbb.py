@@ -26,7 +26,7 @@ async def _help(client: Bot, msg: Message):
         await client.send_photo(
             msg.chat.id,
             photo="https://graph.org/file/120bf7519b24e50dd0b46.jpg",
-            caption="<b>How to Use This Bot</b>\n" + Data.HELP,
+            caption="<b>Donate..</b>\n" + Data.HELP,
             reply_markup=InlineKeyboardMarkup(Data.buttons),
             parse_mode="html",  # Set parse_mode to "html" for HTML formatting.
         )
@@ -52,7 +52,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await client.send_photo(
                 chat_id=query.message.chat.id,
                 photo=Data.HELP_IMAGE,  # Use the URL of the image you want to display.
-                caption="<b>How to Use This Bot</b>\n" + Data.HELP,
+                caption="<b>Donate..</b>\n" + Data.HELP,
                 reply_to_message_id=query.message.message_id,
                 parse_mode="html",
             )
