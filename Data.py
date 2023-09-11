@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-Donate To My Owner.For More Good Service[!](https://graph.org/file/120bf7519b24e50dd0b46.jpg)
+Donate To My Owner. For More Good Service ![Owner](https://graph.org/file/120bf7519b24e50dd0b46.jpg)
 """
 
     close = [
