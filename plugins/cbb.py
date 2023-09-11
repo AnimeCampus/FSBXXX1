@@ -49,10 +49,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "help":
         try:
-            await query.message.edit_photo(
+            await client.send_photo(
+                chat_id=query.message.chat.id,
                 photo=Data.HELP_IMAGE,  # Use the URL of the image you want to display.
                 caption="<b>How to Use This Bot</b>\n" + Data.HELP,
-                reply_markup=InlineKeyboardMarkup(Data.buttons),
+                reply_to_message_id=query.message.message_id,
                 parse_mode="html",
             )
         except MessageNotModified:
@@ -63,4 +64,5 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except BaseException:
             pass
+
 
