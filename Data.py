@@ -11,7 +11,7 @@ Donate To My Owner.For More Good Service!🤗
 
     mbuttons = [
         [
-            InlineKeyboardButton("Help", callback_data="help"),
+            InlineKeyboardButton("Donate", callback_data="help"),
             InlineKeyboardButton("Close", callback_data="close")
         ],
     ]
