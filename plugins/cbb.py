@@ -22,13 +22,16 @@ async def _about(client: Bot, msg: Message):
 
 @Bot.on_message(filters.private & filters.incoming & filters.command("help"))
 async def _help(client: Bot, msg: Message):
-    await client.send_message(
-        msg.chat.id,
-        "<b>Donate My Owner</b>\n" + Data.HELP,
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(Data.buttons),
-        parse_mode="html",  # Set parse_mode to "html" for HTML formatting.
-    )
+    try:
+        await client.send_photo(
+            msg.chat.id,
+            photo="https://graph.org/file/120bf7519b24e50dd0b46.jpg",
+            caption="<b>How to Use This Bot</b>\n" + Data.HELP,
+            reply_markup=InlineKeyboardMarkup(Data.buttons),
+            parse_mode="html",  # Set parse_mode to "html" for HTML formatting.
+        )
+    except Exception as e:
+        print(f"Error sending image: {e}")
 
 
 
