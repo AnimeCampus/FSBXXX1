@@ -2,8 +2,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b>How to Use This Bot</b>
-Click the "Help" button to view the image:
+Donate To My Owner.For More Good Service!🤗
 """
 
     close = [
