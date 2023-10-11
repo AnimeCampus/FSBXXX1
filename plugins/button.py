@@ -1,7 +1,3 @@
-# Credits: @mrismanaziz
-# FROM File-Sharing-Man <https://github.com/mrismanaziz/File-Sharing-Man/>
-# t.me/SharingUserbot & t.me/Lunatic0de
-
 from config import FORCE_SUB_CHANNEL, FORCE_SUB_GROUP
 from pyrogram.types import InlineKeyboardButton
 
@@ -11,6 +7,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="Donate", callback_data="help"),
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
                 InlineKeyboardButton(text="Close ", callback_data="close"),
             ],
         ]
@@ -22,6 +19,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="Donate", callback_data="help"),
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
                 InlineKeyboardButton(text="Close", callback_data="close"),
             ],
         ]
@@ -33,6 +31,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="Donate", callback_data="help"),
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
                 InlineKeyboardButton(text="Close", callback_data="close"),
             ],
         ]
@@ -41,6 +40,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="Donate", callback_data="help"),
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
             ],
             [
                 InlineKeyboardButton(text="Channel 1", url=client.invitelink),
