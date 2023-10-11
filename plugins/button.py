@@ -6,9 +6,11 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Donate", callback_data="help"),
-                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
+                InlineKeyboardButton(text="Donate", callback_data="help"),               
                 InlineKeyboardButton(text="Close ", callback_data="close"),
+            ],
+            [
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
             ],
         ]
         return buttons
@@ -18,9 +20,11 @@ def start_button(client):
                 InlineKeyboardButton(text="Group", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Donate", callback_data="help"),
-                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
+                InlineKeyboardButton(text="Donate", callback_data="help"),             
                 InlineKeyboardButton(text="Close", callback_data="close"),
+            ],
+            [
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
             ],
         ]
         return buttons
@@ -30,9 +34,11 @@ def start_button(client):
                 InlineKeyboardButton(text="Channel", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="Donate", callback_data="help"),
-                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
+                InlineKeyboardButton(text="Donate", callback_data="help"),              
                 InlineKeyboardButton(text="Close", callback_data="close"),
+            ],
+            [
+                InlineKeyboardButton(text="VIP MEMBERSHIP", url="https://t.me/VIP_MEMBERSHIP_OFFICIAL"),
             ],
         ]
         return buttons
