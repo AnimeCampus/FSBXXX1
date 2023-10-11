@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6565655352:AAHjF8BKFGkRpnHrTrS-zY-eWGcqiRAQnMo")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6526399093:AAFkSaZceoP3mQlqBPnnnRMdpIjkE5jgbQ8")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16743442"))
@@ -20,18 +20,13 @@ APP_ID = int(os.environ.get("APP_ID", "16743442"))
 API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001922910913"))
-
-#📢 -1001912633959
-#🏷 FSB Database
-#🕑 Message sent at 04/07/23 10:07:40
-
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001894601486"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Pinkpush_admin")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -41,10 +36,10 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://jvguyglz:UoZxG8gJmrTwj-pBZ7yyhiCeXtcZUhsb@floppy.db.elephantsql.com/jvguyglz")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://bwaxlyig:RCd7LFEvvIvAqUOtHGcNcg2po3Am-l1x@floppy.db.elephantsql.com/bwaxlyig")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936111812"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001849070485"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
